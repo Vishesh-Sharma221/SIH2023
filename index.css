@@ -18,8 +18,8 @@
   top: 322px;
   left: 604px;
   border-radius: var(--br-3xs);
-  background-color: #d8ae2e;
-  width: 210px;
+  background-color: #e6ba38;
+  width: 250px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -27,10 +27,9 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   font-size: var(--font-size-sm);
   color: var(--white);
-  font-weight: 600;
 }
 .blogs {
   position: relative;
@@ -84,11 +83,11 @@
   gap: var(--gap-mini);
 }
 .i-gained-so-much-confidence-in-parent {
-  left: 100px;
+  left: 152px;
   box-shadow: 0 96px 96px rgba(177, 186, 200, 0.12);
 }
 .i-gained-so-much-confidence-in-group {
-  left: 509px;
+  left: 589px;
   border: 1px solid var(--gray-200);
   opacity: 0.85;
 }
@@ -107,7 +106,7 @@
 .i-gained-so-much-confidence-in-container {
   position: absolute;
   top: 269px;
-  left: 925px;
+  left: 1026px;
   background-color: var(--white);
   border: 1px solid var(--gray-200);
   display: flex;
@@ -209,15 +208,45 @@
   position: relative;
   letter-spacing: -0.02em;
   line-height: 24px;
+  text-align: center;
+  background: none;
+  font-family: var(--font-kumbh-sans);
+  color: var(--white);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: var(--br-3xs);
+  transition: 0.8s;
+  font-size: 17px;
+  border: none;
+}
+.home:hover{
+  color: #cc382b;
 }
 .about-us {
   text-align: center;
+  background: none;
+  font-family: var(--font-kumbh-sans);
+  color: var(--white);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: var(--br-3xs);
+  transition: 0.8s;
+  height: 24px;
+  font-size: 17px;
+  border: none;
+  position: relative;
 }
+.about-us:hover{
+  color: #cc382b;
+}
+
 .extra-salespage {
   display: none;
 }
 .home-parent {
-  position: absolute;
+  position: relative;
   top: calc(50% - 12px);
   left: calc(50% - 110px);
   overflow: hidden;
@@ -225,7 +254,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-11xl);
+  gap: var(--gap-11x2);
   font-weight:700;
   font-size: 17px;
   color: white;
@@ -311,14 +340,7 @@
   font-weight: 800;
   display: inline-block;
   width: 520px;
-  transition: 500ms;
 }
-
-.mental-health-matters-container:hover {
-  text-shadow: 2px 2px 2px black;
-  font-size: 89px;
-}
-
 .did-you-know-container,
 .i-help-people {
   position: absolute;
@@ -333,20 +355,12 @@
   line-height: 81.5%;
   font-weight: 800;
   width: 520px;
-  transition: 500ms;
 }
-
-.did-you-know-container:hover {
-  text-shadow: 2px 2px 2px black;
-  font-size: 75px;
-}
-
 .i-help-people {
   top: 280px;
   left: calc(50% + 350.5px);
   font-size: 18px;
   line-height: 160%;
-  font-weight: 600;
   width: 240px;
 }
 .shape-2-icon,
@@ -500,12 +514,11 @@
   width: 492px;
 }
 .we-can-play-container {
-  top: calc(50% - 210px);
+  top: calc(50% - 150px);
   left: calc(50% + 89.5px);
   font-size: 17px;
   line-height: 25px;
-  color: white;
-  font-weight: 600;
+  color: var(--gray-800);
   width: 468px;
 }
 .we-can-help-you-in-these-parti-parent {
@@ -588,11 +601,6 @@
   align-items: center;
   justify-content: center;
 }
-
-.get-your-free-mental-health-ch-wrapper:hover {
-  background-color:#e6ba38e2;
-}
-
 .homepage {
   text-decoration: none;
   position: relative;
@@ -604,4 +612,24 @@
   font-size: var(--font-size-sm);
   color: var(--white);
   font-family: var(--font-kumbh-sans);
+}
+.get-started {
+  background: none;
+  padding: 9px 16px;
+  font-family: var(--font-kumbh-sans);
+  color: var(--white);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  width: 140px;
+  height: 47px;
+  border-radius: var(--br-3xs);
+  border: none;
+  position: relative;
+  transition: 0.8s;
+  overflow: hidden;
+}
+.get-started:hover{
+  color: #cc382b ;
 }
