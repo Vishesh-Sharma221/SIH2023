@@ -18,8 +18,8 @@
   top: 322px;
   left: 604px;
   border-radius: var(--br-3xs);
-  background-color: #e6ba38;
-  width: 250px;
+  background-color: #d8ae2e;
+  width: 210px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -27,9 +27,10 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   font-size: var(--font-size-sm);
   color: var(--white);
+  font-weight: 600;
 }
 .blogs {
   position: relative;
@@ -83,11 +84,11 @@
   gap: var(--gap-mini);
 }
 .i-gained-so-much-confidence-in-parent {
-  left: 152px;
+  left: 100px;
   box-shadow: 0 96px 96px rgba(177, 186, 200, 0.12);
 }
 .i-gained-so-much-confidence-in-group {
-  left: 589px;
+  left: 509px;
   border: 1px solid var(--gray-200);
   opacity: 0.85;
 }
@@ -106,7 +107,7 @@
 .i-gained-so-much-confidence-in-container {
   position: absolute;
   top: 269px;
-  left: 1026px;
+  left: 925px;
   background-color: var(--white);
   border: 1px solid var(--gray-200);
   display: flex;
@@ -310,7 +311,14 @@
   font-weight: 800;
   display: inline-block;
   width: 520px;
+  transition: 500ms;
 }
+
+.mental-health-matters-container:hover {
+  text-shadow: 2px 2px 2px black;
+  font-size: 89px;
+}
+
 .did-you-know-container,
 .i-help-people {
   position: absolute;
@@ -325,12 +333,20 @@
   line-height: 81.5%;
   font-weight: 800;
   width: 520px;
+  transition: 500ms;
 }
+
+.did-you-know-container:hover {
+  text-shadow: 2px 2px 2px black;
+  font-size: 75px;
+}
+
 .i-help-people {
   top: 280px;
   left: calc(50% + 350.5px);
   font-size: 18px;
   line-height: 160%;
+  font-weight: 600;
   width: 240px;
 }
 .shape-2-icon,
@@ -484,11 +500,12 @@
   width: 492px;
 }
 .we-can-play-container {
-  top: calc(50% - 150px);
+  top: calc(50% - 210px);
   left: calc(50% + 89.5px);
   font-size: 17px;
   line-height: 25px;
-  color: var(--gray-800);
+  color: white;
+  font-weight: 600;
   width: 468px;
 }
 .we-can-help-you-in-these-parti-parent {
@@ -571,6 +588,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.get-your-free-mental-health-ch-wrapper:hover {
+  background-color:#e6ba38e2;
+}
+
 .homepage {
   text-decoration: none;
   position: relative;
