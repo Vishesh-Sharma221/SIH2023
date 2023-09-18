@@ -9,17 +9,34 @@
   width: 929px;
 }
 .start-a-mental {
-  position: relative;
+  position: absolute;
   line-height: 24px;
   font-weight: 900;
+  background:#E6BA38;
+  border-radius: var(--br-3xs);
+  border: none;
+  overflow: hidden;
+  color: #faf8f6;
+  font-size: 17px;
+  font-family: var(--font-kumbh-sans);
+  font-weight: 600;
+  transition: 0.8s;
+  width: 210px;
+  height: 68px;
+  cursor: pointer;
+}
+.start-a-mental:hover{
+  color: #cc382b;
+  background-color:#dabd66;
 }
 .start-a-mental-healh-checkup-wrapper {
   position: absolute;
   top: 322px;
   left: 604px;
   border-radius: var(--br-3xs);
-  background-color: #d8ae2e;
+  background-color: #E6BA38;
   width: 210px;
+  height: 68px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
