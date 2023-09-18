@@ -4,6 +4,7 @@ body {
   
   h2 {
     text-align: center;
+    font-family: var(--font-kumbh-sans);  
   }
   
   form {
@@ -13,31 +14,42 @@ body {
   
   .question {
     margin-bottom: 20px;
+    font-family: var(--font-kumbh-sans);
+    font-weight: 500;
+    margin-bottom: 20px;
   }
   
   input[type="range"] {
-    width: 100%;
+    width: 70%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   input[type="submit"] {
     display: block;
     margin: 0 auto;
     padding: 10px;
-    font-size: 1em;
-    background-color: #333;
-    color: #fff;
+    font-size: 1.1em;
+    background-color: #fbff00;
+    color: #1f1a1a;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 600;
+    transition: 500ms;
   }
   
   input[type="submit"]:hover {
-    background-color: #444;
+    background-color: #caff46;
+    color: rgb(255, 0, 204);
   }
   
   #result {
-    margin-top: 20px;
+    margin: 150px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
   }
   
