@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      
+<body>
+
+<h2>Mental Health Survey</h2>
+
+<form id="mentalHealthForm">
+  <div class="question">
+    <label for="question1">Have you experienced physical symptoms such as aches and pains, digestive issues, or changes in appetite recently?</label><br>
+    <input type="range" id="question1" name="question1" min="1" max="10">
+  </div>
+  <div class="question">
+    <label for="question2">Have you noticed any changes in your sleep patterns, such as waking up too early or feeling unrested after a full night's sleep?</label><br>
+    <input type="range" id="question2" name="question2" min="1" max="10">
+  </div>
+  <!-- Add more questions as needed -->
+  <div class="question">
+    <label for="question3">How often do you experience intense emotions such as sadness, anger, or guilt?</label><br>
+    <input type="range" id="question3" name="question3" min="1" max="10">
+  </div>
+  <div class="question">
+    <label for="question4">Do you feel that your emotions are overwhelming or difficult to manage at times?</label><br>
+    <input type="range" id="question4" name="question4" min="1" max="10">
+  </div>
+  <div class="question">
+    <label for="question5">How often do you feel overwhelmed or stressed in your role at work or at home?</label><br>
+    <input type="range" id="question5" name="question5" min="1" max="10">
+  </div>
+  <div class="question">
+    <label for="question6">Are you able to take regular breaks and engage in self-care activities to manage stress?</label><br>
+    <input type="range" id="question6" name="question6" min="1" max="10">
+  </div>
+  <div class="question">
+    <label for="question7">Have you noticed any physical or emotional signs of burnout in yourself?</label><br>
+    <input type="range" id="question7" name="question7" min="1" max="10">
+  </div>
+  <div class="question">
+    <label for="question8">How often do you engage in physical activity or exercise?</label><br>
+    <input type="range" id="question8" name="question8" min="1" max="10">
+  </div>
+  <div class="question">
+    <label for="question9">Do you feel that physical activity positively impacts your mental well-being?</label><br>
+    <input type="range" id="question9" name="question9" min="1" max="10">
+  </div>
+  <div class="question">
+    <label for="question10">How satisfied are you with your relationship with your colleagues?</label><br>
+    <input type="range" id="question10" name="question10" min="1" max="10">
+  </div>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
