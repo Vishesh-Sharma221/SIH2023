@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
